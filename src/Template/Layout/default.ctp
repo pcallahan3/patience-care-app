@@ -40,19 +40,20 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                 <h1><a href=""><?= $this->fetch('title') ?></a></h1>
             </li>
         </ul>
+        <div class="top-bar-section">
         <ul class="left">
                 <li><?= $this->Html->link(_('Patients'), ['controller' => 'patients', 'action' => 'index']); ?></li>
-                <li><?= $this->Html->link(_('Patients'), ['controller' => 'patients', 'action' => 'index']); ?></li>
-                <li><?= $this->Html->link(_('Patients'), ['controller' => 'patients', 'action' => 'index']); ?></li>
-                <li><?= $this->Html->link(_('Patients'), ['controller' => 'patients', 'action' => 'index']); ?></li>
-                <li><?= $this->Html->link(_('Patients'), ['controller' => 'patients', 'action' => 'index']); ?></li>
-                <li><?= $this->Html->link(_('Patients'), ['controller' => 'patients', 'action' => 'index']); ?></li>
+                <li><?= $this->Html->link(_('Appointments'), ['controller' => 'appointments', 'action' => 'index']); ?></li>
+                <li><?= $this->Html->link(_('Doctors'), ['controller' => 'doctors', 'action' => 'index']); ?></li>
+                <li><?= $this->Html->link(_('Carriers'), ['controller' => 'carriers', 'action' => 'index']); ?></li>
+                <li><?= $this->Html->link(_('Invoices'), ['controller' => 'invoices', 'action' => 'index']); ?></li>
                 <li></li>
             </ul>
+        </div>
         <div class="top-bar-section">
             <ul class="right">
-                <li><a target="_blank" href="https://book.cakephp.org/3.0/">Documentation</a></li>
-                <li><a target="_blank" href="https://api.cakephp.org/3.0/">API</a></li>
+               <li><?= $this->Html->link(_('Manange Users'), ['controller' => 'users', 'action' => 'index']); ?></li>
+              <li><?= $this->Html->link(_('Logout'), ['controller' => 'logout', 'action' => 'logout']); ?></li>
             </ul>
         </div>
     </nav>
