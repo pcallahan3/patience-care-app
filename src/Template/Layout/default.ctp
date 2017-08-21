@@ -40,6 +40,15 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                 <h1><a href=""><?= $this->fetch('title') ?></a></h1>
             </li>
         </ul>
+        <ul class="left">
+                <li><?= $this->Html->link(_('Patients'), ['controller' => 'patients', 'action' => 'index']); ?></li>
+                <li><?= $this->Html->link(_('Patients'), ['controller' => 'patients', 'action' => 'index']); ?></li>
+                <li><?= $this->Html->link(_('Patients'), ['controller' => 'patients', 'action' => 'index']); ?></li>
+                <li><?= $this->Html->link(_('Patients'), ['controller' => 'patients', 'action' => 'index']); ?></li>
+                <li><?= $this->Html->link(_('Patients'), ['controller' => 'patients', 'action' => 'index']); ?></li>
+                <li><?= $this->Html->link(_('Patients'), ['controller' => 'patients', 'action' => 'index']); ?></li>
+                <li></li>
+            </ul>
         <div class="top-bar-section">
             <ul class="right">
                 <li><a target="_blank" href="https://book.cakephp.org/3.0/">Documentation</a></li>
